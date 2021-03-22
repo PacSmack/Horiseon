@@ -1,4 +1,5 @@
 # Code Refactor Project
+
 *changed all html semantic
 *made code easier/simpler to read
 *reused css code to avoid duplicates
