@@ -8,23 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* start of header/nav section */
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+span {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,21 +34,21 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+header p {
     font-size: 16px;
 }
 
@@ -59,15 +61,19 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* end of header/nav section */
+
+.float-left-img {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right-img {
     float: right;
     margin-left: 25px;
 }
+/* end of image floats classes */
+
 
 .content {
     width: 75%;
@@ -188,13 +194,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* start of footer styling */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+
+/* end of footer styling */
