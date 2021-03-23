@@ -8,7 +8,7 @@ Refactor code to modern standards and cleaner code
 * CSS
 
 ## Website
-https://pacsmack.github.io/Horiseon/
+https://pacsmack.github.io/horiseon-refactor/
 
 ## Contribution
 Made by Nathan da Silva
